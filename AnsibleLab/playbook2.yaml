@@ -1,2 +1,0 @@
-- name: "This is test playbook"
-hosts: all

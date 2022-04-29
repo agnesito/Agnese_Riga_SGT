@@ -2,20 +2,15 @@
 #This is Ansible test for lab2
 - name: "This is test for playbook for Ansible Labs2"
   hosts: all
-
 - name: "This is test only for frontend server"
   hosts: front-end-servers
-
 - name: "This is test for backend servers"
   hosts: back-end-servers
-
 - name: "This is test only for one server"
   hosts: 52.53.213.191
-  
 - name: Create directory
   file:
     path: /tmp/saukuma/java_dns
     state: directory
-    
 - name: download sources
   get_url: https://repo1.maven.org/maven2/dnsjava/dnsjava/3.5.0/dnsjava-3.5.0.jar dest=/tmp/saukuma/java_dns/dnsjava-3.5.0.jar

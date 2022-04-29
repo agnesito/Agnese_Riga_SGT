@@ -1,6 +1,6 @@
 ---
 #This is Ansible test for lab2
-- name "This is test for playbook for Ansible Labs2"
+- name: "This is test for playbook for Ansible Labs2"
   hosts: all
   
 - name: "This is test only for frontend server"

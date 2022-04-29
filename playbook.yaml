@@ -11,7 +11,6 @@
 
 - name: "This is test only for one server"
   hosts: 52.53.213.191
-  
 - name: Create directory
   file:
     path: /tmp/saukuma/java_dns

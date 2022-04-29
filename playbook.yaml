@@ -2,15 +2,15 @@
 #This is Ansible test for lab2
 - name: "This is test for playbook for Ansible Labs2"
   hosts: all
-  
+
 - name: "This is test only for frontend server"
   hosts: front-end-servers
-  
+
 - name: "This is test for backend servers"
   hosts: back-end-servers
-  
+
 - name: "This is test only for one server"
   hosts: 52.53.213.191
-  
+
 - name: "This is test for server classes"
   hosts: "{{class}}"
